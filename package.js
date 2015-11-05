@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mapker:highlight.js',
   version: '8.9.1',
-  summary: 'A wrapping of Highlight.js for Meteor',
+  summary: 'Highlight.js integration for Meteor',
   git: 'https://github.com/Mapker/highlight.js',
   documentation: 'README.md'
 });
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   var packages = [
     'deps',
     'underscore',
-    'fortawesome:fontawesome'  // https://atmospherejs.com/fortawesome/fontawesome
+    'fortawesome:fontawesome@4.4.0'  // https://atmospherejs.com/fortawesome/fontawesome
   ];
 
   api.use(packages, 'client');
