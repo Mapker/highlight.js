@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mapker:highlight.js',
-  version: '0.0.1',
+  version: '8.9.1',
   summary: 'A wrapping of Highlight.js for Meteor',
   git: 'https://github.com/Mapker/highlight.js',
   documentation: 'README.md'
